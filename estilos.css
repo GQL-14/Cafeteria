@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-coffee-order-menu-european-style-pattern-background-picture-image_1081989.jpg");
+}
+p, h1, h2, th, td {
+    text-align: center;
+    color: #000000;
+}
+.container.button {
+    display: flex;
+    justify-content: center;
+}
+    button {
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .button1 {
+        background-color: white;
+        color: black;
+        border: 2px solid #04AA6D;
+    }
+
+    .button1:hover {
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    .button2 {
+        background-color: white;
+        color: black;
+        border: 2px solid #008CBA;
+    }
+
+    .button2:hover {
+        background-color: #008CBA;
+        color: white;
+    }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
